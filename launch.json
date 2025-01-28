@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "-cp .;lib/mysql-connector-j-9.1.0.jar;${workspaceFolder}/lib/commons-validator-1.9.0.jar;${workspaceFolder}/lib/encoder-1.3.1.jar",
+            "classPaths": [
+                "${workspaceFolder}/lib/commons-validator-1.9.0.jar",
+                "${workspaceFolder}/lib/encoder-1.3.1.jar",
+                "${workspaceFolder}/bin"
+            ]
+        }
+    ]
+}
